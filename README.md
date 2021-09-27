@@ -1,7 +1,8 @@
 # lagalt-backend
 
 This is the Backend part of our case work at Experis accelerated Learning.
-This repository contains all the Controllers, models, repositories, services and the security (spring security) used in the frontend (https://github.com/nielsenchristoffer93/lagalt-frontend/blob/main).
+This repository contains all the Controllers, models, repositories, services and the security (spring security) used in the frontend 
+Link: [Frontend client-side](https://github.com/Jaber-Ali/Lagalt-frontend)
 
 # Setup
 
