@@ -1,0 +1,16 @@
+ .../controllers/UserPortfolioController.java       | 10 [32m++[m[31m---[m
+ .../lagaltbackend/controllers/UsersController.java | 18 [32m+++++[m[31m---[m
+ .../example/lagaltbackend/models/ChatMessages.java |  6 [32m+[m[31m--[m
+ .../lagaltbackend/models/DiscussionMessages.java   |  6 [32m+[m[31m--[m
+ .../{UserPortfolio.java => PortfolioItem.java}     |  8 [32m++[m[31m--[m
+ .../example/lagaltbackend/models/ProjectRoles.java |  6 [32m+[m[31m--[m
+ .../com/example/lagaltbackend/models/Projects.java |  6 [32m+[m[31m--[m
+ .../lagaltbackend/models/{Users.java => User.java} | 40 [32m+++++++++[m[31m---------[m
+ .../example/lagaltbackend/models/UserHistory.java  |  6 [32m+[m[31m--[m
+ .../example/lagaltbackend/models/UserProfile.java  | 37 [32m++++++++++++++[m[31m---[m
+ .../repositories/UserPortfolioRepository.java      |  4 [32m+[m[31m-[m
+ .../repositories/UsersRepository.java              |  4 [32m+[m[31m-[m
+ ...folioService.java => PortfolioItemService.java} | 12 [32m+++[m[31m---[m
+ .../lagaltbackend/services/UsersService.java       | 29 [32m+++++++++++[m[31m--[m
+ src/main/resources/application.properties          | 48 [32m+++++++++++[m[31m-----------[m
+ 15 files changed, 147 insertions(+), 93 deletions(-)
